@@ -183,7 +183,8 @@
       animation: scaleIn 1s cubic-bezier(.34,1.56,.64,1) .85s forwards;
     }
     .hero-photo {
-      width: clamp(120px,22vw,160px); height: clamp(120px,22vw,160px);
+      width: clamp(180px,30vw,260px);
+  height: clamp(180px,30vw,260px);
       border-radius: 50%; object-fit: cover;
       border: 3px solid var(--blush);
       box-shadow: 0 0 0 8px rgba(232,196,207,.22), 0 20px 50px rgba(184,119,138,.18);
@@ -194,13 +195,14 @@
       box-shadow: 0 0 0 12px rgba(232,196,207,.28), 0 28px 70px rgba(184,119,138,.25);
     }
     .photo-fb {
-      display: none; width: clamp(120px,22vw,160px); height: clamp(120px,22vw,160px);
+      display: none; width: clamp(180px,30vw,260px);
+  height: clamp(180px,30vw,260px);
       border-radius: 50%; background: linear-gradient(135deg,#e8c4cf,#c9a0ad);
       align-items: center; justify-content: center; font-size: 48px;
       border: 3px solid var(--blush);
     }
     .photo-ring {
-      position: absolute; inset: -14px; border-radius: 50%;
+      position: absolute; inset: -18px; border-radius: 50%;
       border: 1px dashed var(--dusty); opacity: .5;
       animation: spinSlow 20s linear infinite; pointer-events: none;
     }
